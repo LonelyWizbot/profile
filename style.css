@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #e0e8f0;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-card {
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: 'Playfayr display', serif;
+  color: #3e444f;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  color: #3e444f;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  color: #5a5a5a;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #ffd66b;
+  color: #333;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 30px;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffbc42;
+}
+
+a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: #ffbc42;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+.fa-brands {
+  font-size: 2.5rem;
+  color: #4a90e2;
+}
+
+.fa-brands:hover {
+  color: #ffbc42;
+}
